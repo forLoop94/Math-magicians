@@ -26,7 +26,7 @@
 
 # 📖 About <a name="about-project"></a>
 
-**To Do list** "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read random math-related quotes. This application will be built using React.
+**Math magicians**  is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read random math-related quotes. This application will be built using React.
 
 ## 🛠 Built With <a name="built-with"></a>
 
