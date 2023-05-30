@@ -16,4 +16,33 @@ main {
   justify-content: end;
   align-items: center;
   padding: 0rem 0.3rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.keys-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.left-border {
+  border: 0.1rem solid grey;
+}
+
+.keys {
+  background-color: rgb(128, 128, 128, 0.2);
+  border: none;
+  outline: none;
+  border-right: 0.1rem solid grey;
+  border-bottom: 0.1rem solid grey;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.orange-keys {
+  background-color: orange;
 }
