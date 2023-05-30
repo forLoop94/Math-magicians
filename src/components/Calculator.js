@@ -1,9 +1,10 @@
 import '../App.css';
+import CalculatorDisplay from './CalculatorDisplay';
 
 const Calculator = () => (
-  <>
-    <h1>Calculator</h1>
-  </>
+  <main>
+    <CalculatorDisplay />
+  </main>
 );
 
 export default Calculator;
