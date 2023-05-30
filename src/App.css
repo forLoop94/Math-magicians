@@ -39,10 +39,18 @@ main {
   cursor: pointer;
 }
 
+.keys:hover {
+  background-color: rgb(210, 202, 202);
+}
+
 .span-2 {
   grid-column: span 2;
 }
 
 .orange-keys {
   background-color: orange;
+}
+
+.orange-keys:hover {
+  background-color: rgb(218, 162, 60);
 }

@@ -3,7 +3,7 @@ const CalculatorKeys = () => (
     <button type="button" className="keys left-border">AC</button>
     <button type="button" className="keys">+/-</button>
     <button type="button" className="keys">%</button>
-    <button type="button" className="keys orange-keys">/</button>
+    <button type="button" className="keys orange-keys">÷</button>
     <button type="button" className="keys">7</button>
     <button type="button" className="keys">8</button>
     <button type="button" className="keys">9</button>
