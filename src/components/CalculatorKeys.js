@@ -7,7 +7,6 @@ const CalculatorKeys = () => {
   const [operation, setOperation] = useState(null);
 
   const keyHandler = (e) => {
-    console.log(e.target.innerText);
     const res = calculate({ total, next, operation }, e.target.innerText);
     setTotal(res.total);
     setNext(res.next);
