@@ -28,7 +28,7 @@ const CalculatorKeys = () => {
         <button onClick={keyHandler} type="button" className="keys">7</button>
         <button onClick={keyHandler} type="button" className="keys">8</button>
         <button onClick={keyHandler} type="button" className="keys">9</button>
-        <button onClick={keyHandler} type="button" className="keys orange-keys">X</button>
+        <button onClick={keyHandler} type="button" className="keys orange-keys">x</button>
         <button onClick={keyHandler} type="button" className="keys">4</button>
         <button onClick={keyHandler} type="button" className="keys">5</button>
         <button onClick={keyHandler} type="button" className="keys">6</button>
