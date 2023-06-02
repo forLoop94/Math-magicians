@@ -1,0 +1,40 @@
+import React, { useState, useEffect } from 'react';
+
+function DisplayQuote() {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch('https://api.api-ninjas.com/v1/quotes?category=courage', {
+      headers: {
+        'X-Api-Key': 'HZ3MkOU+6mRUWHnauieRxw==AY0PewsrdfGPKDGd',
+      },
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(response.status);
+        }
+        return response.json();
+      })
+      .then((result) => {
+        setData(result[0].quote);
+      })
+      .catch((error) => {
+        setError(error);
+      });
+  }, []);
+
+  if (error) {
+    return (
+      <div className="error">Could not fetch quote. Ensure the url is correct and try again</div>
+    );
+  }
+
+  return (
+    <div>
+      <p className="quote">{data}</p>
+    </div>
+  );
+}
+
+export default DisplayQuote;
