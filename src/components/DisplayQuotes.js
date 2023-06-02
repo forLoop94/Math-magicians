@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 function DisplayQuote() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch('https://api.api-ninjas.com/v1/quotes?category=courage', {
@@ -18,11 +19,16 @@ function DisplayQuote() {
       })
       .then((result) => {
         setData(result[0].quote);
+        setLoading(false);
       })
       .catch((error) => {
         setError(error);
+        setLoading(false);
       });
   }, []);
+  if (loading) {
+    return <p>Quote is loading...</p>;
+  }
 
   if (error) {
     return (
