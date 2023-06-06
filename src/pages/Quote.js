@@ -1,7 +1,8 @@
 import React from 'react';
+import DisplayQuote from '../components/DisplayQuotes';
 
 const Quote = () => (
-  <div>Quote</div>
+  <DisplayQuote />
 );
 
 export default Quote;

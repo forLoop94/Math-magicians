@@ -106,6 +106,18 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
+.quote-container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+
+.home-paragraph {
+  font-size: 1rem;
+  margin: 2rem 0rem;
+}
+
 .flex {
   display: flex;
 }

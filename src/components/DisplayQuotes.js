@@ -37,7 +37,7 @@ function DisplayQuote() {
   }
 
   return (
-    <div>
+    <div className="quote-container">
       <p className="quote">{data}</p>
     </div>
   );
