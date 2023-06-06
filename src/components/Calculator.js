@@ -1,10 +1,9 @@
-import '../App.css';
 import CalculatorKeys from './CalculatorKeys';
 
 const Calculator = () => (
-  <main>
+  <div>
     <CalculatorKeys />
-  </main>
+  </div>
 );
 
 export default Calculator;

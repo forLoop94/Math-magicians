@@ -54,3 +54,10 @@ main {
 .orange-keys:hover {
   background-color: rgb(218, 162, 60);
 }
+
+.quote,
+.error {
+  box-shadow: 0 0 10px grey;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
