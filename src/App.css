@@ -41,7 +41,7 @@ ul li {
 .links {
   text-decoration: none;
   font-size: 1.5rem;
-  color: rgb(231, 231, 231)
+  color: rgb(231, 231, 231);
 }
 
 .links:hover {
@@ -115,7 +115,7 @@ ul li {
 
 .home-paragraph {
   font-size: 1rem;
-  margin: 2rem 0rem;
+  margin: 2rem 0;
 }
 
 .flex {
