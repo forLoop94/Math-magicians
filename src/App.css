@@ -1,12 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(67, 65, 65);
+}
+
 body {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  padding: 5rem;
+  background: linear-gradient(270deg, rgb(238, 225, 225), white);
 }
 
 main {
-  width: 40vw;
+  justify-content: space-around;
+  padding: 2rem 4rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: rgb(231, 231, 231);
+}
+
+main p {
+  font-size: 2rem;
+}
+
+nav {
+  list-style-type: none;
+  padding: 1.5rem 3rem;
+  justify-content: space-between;
+  background-color: rgb(27, 26, 26);
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-right: 0.3rem;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(231, 231, 231);
+}
+
+.links:hover {
+  color: orange;
+}
+
+.calculator {
+  width: 70%;
+  border: 2px solid red;
 }
 
 .screen {
@@ -22,7 +66,7 @@ main {
 
 .keys-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 7rem 7rem 7rem 7rem;
 }
 
 .left-border {
@@ -60,4 +104,20 @@ main {
   box-shadow: 0 0 10px grey;
   padding: 1rem;
   margin-bottom: 0.5rem;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+
+.home-paragraph {
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+
+.flex {
+  display: flex;
 }

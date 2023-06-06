@@ -27,7 +27,11 @@ function DisplayQuote() {
       });
   }, []);
   if (loading) {
-    return <p>Quote is loading...</p>;
+    return (
+      <div className="quote-container">
+        <p>Quote is loading...</p>
+      </div>
+    );
   }
 
   if (error) {
@@ -37,7 +41,7 @@ function DisplayQuote() {
   }
 
   return (
-    <div>
+    <div className="quote-container">
       <p className="quote">{data}</p>
     </div>
   );
