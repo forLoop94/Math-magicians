@@ -10,10 +10,10 @@ const App = () => (
       <h1>Math Magicians</h1>
       <ul className="flex">
         <li>
-          <Link className="links" to="/home">Home |</Link>
+          <Link className="links" to="/">Home |</Link>
         </li>
         <li>
-          <Link className="links" to="/">Calculator |</Link>
+          <Link className="links" to="/calculator">Calculator |</Link>
         </li>
         <li>
           <Link className="links" to="/quote">Quote</Link>
@@ -22,7 +22,7 @@ const App = () => (
     </nav>
     <Routes>
       <Route
-        path="/"
+        path="/calculator"
         element={(
           <main className="flex">
             <p>Lets do some math!</p>
@@ -32,7 +32,7 @@ const App = () => (
           </main>
         )}
       />
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/quote" element={<Quote />} />
     </Routes>
   </>
