@@ -49,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://forloop94.github.io/Math-magicians/">live demo</a>
+- <a href="https://math-magicians-cyzw.onrender.com/">live demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
